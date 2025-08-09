@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Redwan Export & Import</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+    }
+    header {
+        background: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    header .logo {
+        display: flex;
+        align-items: center;
+    }
+    header img {
+        height: 70px;
+        margin-right: 15px;
+    }
+    header h1 {
+        font-size: 24px;
+        color: #2c3e50;
+        margin: 0;
+    }
+    section {
+        padding: 20px;
+        text-align: center;
+    }
+    section h2 {
+        color: #27ae60;
+    }
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+        margin-top: 20px;
+    }
+    .gallery img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    #contact {
+        background-color: #fff;
+        padding: 20px;
+        margin: 20px auto;
+        border-radius: 10px;
+        max-width: 600px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        text-align: left;
+    }
+    #contact h2 {
+        color: #27ae60;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    input, textarea, button {
+        margin: 10px 0;
+        padding: 10px;
+        font-size: 16px;
+    }
+    button {
+        background-color: #27ae60;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #219150;
+    }
+    .whatsapp-link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        margin-top: 10px;
+    }
+    .whatsapp-link img {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    footer {
+        background: #2c3e50;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="https://i.ibb.co/mCvSMLF/mhr-group-logo.png" alt="MHR Group Logo">
+        <h1>Redwan Export & Import</h1>
+    </div>
+</header>
+
+<section>
+    <h2>Fresh Fruits & Vegetables</h2>
+    <p>We export and import the finest quality mangoes, apples, grapes, pomegranates, and fresh vegetables worldwide.</p>
+    
+    <div class="gallery">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Mango_fruit.jpg" alt="Mango">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg" alt="Apple">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Kyoho-grape.jpg" alt="Grapes">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Pomegranate_fruit.jpg" alt="Pomegranate">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Vegetable_Basket.jpg" alt="Vegetables">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Tomato_je.jpg" alt="Tomatoes">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Mango_and_Vegetables.jpg" alt="Mango & Vegetables">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Bananas_still_life.jpg" alt="Banana">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Watermelon.jpg" alt="Watermelon">
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>📞 Phone: 01625345904</p>
+    <p>📧 Email: mhrredwan01@gmail.com</p>
+    <p>👤 Name: MHR Redwan</p>
+    <a href="https://wa.me/8801625345904" target="_blank" class="whatsapp-link">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        <span style="font-size:18px; color:green; font-weight:bold;">Chat on WhatsApp</span>
+    </a>
+
+    <form>
+        <label>Your Name:</label>
+        <input type="text" name="name" required>
+        <label>Your Email:</label>
+        <input type="email" name="email" required>
+        <label>Message:</label>
+        <textarea name="message" rows="5" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<footer>
+    &copy; 2025 Redwan Export & Import. All Rights Reserved.
+</footer>
+
+</body>
+</html>
